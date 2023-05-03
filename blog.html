@@ -1,0 +1,1212 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/svg" sizes="16x16" href="images/logo.svg">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Your Rountine</title>
+</head>
+
+<body>
+    <header class="blog-header">
+        <nav class="navbar navbar-expand-lg p-0">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="images/logo.svg" class="img-fluid"></a>
+                <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Support</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-download" href="#">Download</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row ">
+                <div class="text-box text-md-start text-center">
+                    <h1>our blog</h1>
+                </div>
+            </div>
+        </div>
+        <div class="circle">
+            <img src="images/circle.png" class="img-fluid">
+        </div>
+    </header>
+
+    <!-- ================== tabs-sec =========== -->
+    <section class="tab-sec">
+        <div class="container">
+            <form>
+                <div class="d-lg-none d-block mb-5">
+                    <input type="text" class="form-control form-input" placeholder="Search"
+                        aria-describedby="basic-addon2">
+                </div>
+            </form>
+            <div class="row bg-white tab-line">
+                <div class="col-lg-8 col-md-11 p-0">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
+                                type="button" role="tab" aria-controls="home" aria-selected="true">All</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                                type="button" role="tab" aria-controls="profile" aria-selected="false">Popular</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact"
+                                type="button" role="tab" aria-controls="contact" aria-selected="false">Latest</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="business-tab" data-bs-toggle="tab" data-bs-target="#business"
+                                type="button" role="tab" aria-controls="business"
+                                aria-selected="false">Business</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="marketing-tab" data-bs-toggle="tab" data-bs-target="#marketing"
+                                type="button" role="tab" aria-controls="marketing"
+                                aria-selected="false">Marketing</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="finance-tab" data-bs-toggle="tab" data-bs-target="#finance"
+                                type="button" role="tab" aria-controls="finance" aria-selected="false">Finance</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link soical" id="social-tab" data-bs-toggle="tab"
+                                data-bs-target="#social" type="button" role="tab" aria-controls="social"
+                                aria-selected="false">Social Media</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="travel-tab" data-bs-toggle="tab" data-bs-target="#travel"
+                                type="button" role="tab" aria-controls="travel" aria-selected="false">Travel</button>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <div class="col-lg-4 col-1 ps-0 d-lg-block d-none">
+                    <a href="#"><img src="images/search.svg" class="img-fluid"></a>
+                </div>
+            </div>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="row blog-row">
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-1.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Caring is the new marketing</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-2.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>How to optimize images in WordPress for faster loading (complete guide)</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-3.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>The unseen of spending three years at Pixelgrade</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-4.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Why choose a theme that looks good with WooCommerce</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-5.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>How to build a loyal community online and offline</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-6.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Helping a local business reinvent itself</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-7.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>How to design your site footer like we did</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-8.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Lessons and insights from 8 years of Pixelgrade</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-9.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Start a blog to reach your creative peak</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <div class="row blog-row">
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-1.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Caring is the new marketing</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-2.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>How to optimize images in WordPress for faster loading (complete guide)</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-3.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>The unseen of spending three years at Pixelgrade</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-4.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Why choose a theme that looks good with WooCommerce</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-5.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>How to build a loyal community online and offline</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-6.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Helping a local business reinvent itself</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-7.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>How to design your site footer like we did</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-8.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Lessons and insights from 8 years of Pixelgrade</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-9.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Start a blog to reach your creative peak</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                    <div class="row blog-row">
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-1.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Caring is the new marketing</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-2.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>How to optimize images in WordPress for faster loading (complete guide)</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-3.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>The unseen of spending three years at Pixelgrade</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-4.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Why choose a theme that looks good with WooCommerce</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-5.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>How to build a loyal community online and offline</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-6.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Helping a local business reinvent itself</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-7.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>How to design your site footer like we did</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-8.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Lessons and insights from 8 years of Pixelgrade</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-9.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Start a blog to reach your creative peak</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="business" role="tabpanel" aria-labelledby="business-tab">
+                    <div class="row blog-row">
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-1.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Caring is the new marketing</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-2.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>How to optimize images in WordPress for faster loading (complete guide)</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-3.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>The unseen of spending three years at Pixelgrade</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-4.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Why choose a theme that looks good with WooCommerce</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-5.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>How to build a loyal community online and offline</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-6.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Helping a local business reinvent itself</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-7.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>How to design your site footer like we did</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-8.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Lessons and insights from 8 years of Pixelgrade</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-9.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Start a blog to reach your creative peak</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="marketing" role="tabpanel" aria-labelledby="marketing-tab">
+                    <div class="row blog-row">
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-1.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Caring is the new marketing</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-2.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>How to optimize images in WordPress for faster loading (complete guide)</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-3.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>The unseen of spending three years at Pixelgrade</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-4.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Why choose a theme that looks good with WooCommerce</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-5.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>How to build a loyal community online and offline</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-6.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Helping a local business reinvent itself</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-7.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>How to design your site footer like we did</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-8.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Lessons and insights from 8 years of Pixelgrade</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-9.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Start a blog to reach your creative peak</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="finance" role="tabpanel" aria-labelledby="finance-tab">
+                    <div class="row blog-row">
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-1.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Caring is the new marketing</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-2.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>How to optimize images in WordPress for faster loading (complete guide)</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-3.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>The unseen of spending three years at Pixelgrade</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-4.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Why choose a theme that looks good with WooCommerce</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-5.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>How to build a loyal community online and offline</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-6.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Helping a local business reinvent itself</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-7.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>How to design your site footer like we did</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-8.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Lessons and insights from 8 years of Pixelgrade</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-9.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Start a blog to reach your creative peak</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="social" role="tabpanel" aria-labelledby="social-tab">
+                    <div class="row blog-row">
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-1.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Caring is the new marketing</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-2.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>How to optimize images in WordPress for faster loading (complete guide)</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-3.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>The unseen of spending three years at Pixelgrade</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-4.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Why choose a theme that looks good with WooCommerce</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-5.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>How to build a loyal community online and offline</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-6.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Helping a local business reinvent itself</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-7.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>How to design your site footer like we did</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-8.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Lessons and insights from 8 years of Pixelgrade</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-9.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Start a blog to reach your creative peak</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="travel" role="tabpanel" aria-labelledby="travel-tab">
+                    <div class="row blog-row">
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-1.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Caring is the new marketing</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-2.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>How to optimize images in WordPress for faster loading (complete guide)</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-3.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>The unseen of spending three years at Pixelgrade</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-4.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Why choose a theme that looks good with WooCommerce</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-5.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>How to build a loyal community online and offline</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-6.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Helping a local business reinvent itself</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-7.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>How to design your site footer like we did</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-8.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Lessons and insights from 8 years of Pixelgrade</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-lg-4 mt-4 ps-lg-0 d-md-block d-none  box">
+                            <a href="#" class="text-decoration-none">
+                                <img src="images/blog-9.png" class="img-fluid w-100">
+                                <div class="card-box">
+                                    <h6>Nov 21, 2021</h6>
+                                    <h2>Start a blog to reach your creative peak</h2>
+                                    <p class="paragraph-size">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lacus sem
+                                        sit mattis habitasse...</p>
+                                    <a href="#" class="btn-read btn text-decoration-none">Read Article</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-12 ">
+                    <nav class="d-lg-block d-none">
+                        <ul class="pagination ">
+                            <li class="page-item">
+                                <a href="#" class="text-decoration-none prev-btn "><img src="images/slider-next.svg"
+                                        class="img-fluid me-3">Prev</span>
+                            </li>
+                            <li class="page-item ms-3"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item active" aria-current="page">
+                                <a class="page-link text-decoration-none" href="#">2</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                            <li class="page-item">
+                                <a class="prev-btn text-decoration-none ps-3" href="#">Next<img
+                                        src="images/slider-prev.svg" class="img-fluid ms-3"></a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="text-center d-lg-none d-block my-5">
+                        <a href="#" class="btn btn-load">Load More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- ================== footer ================ -->
+     <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text-lg-start text-center">
+                    <div class="heading">
+                        <h1 class="text-white">stay updated</h1>
+                        <p class="pt-md-0 pt-2">Sign up to our newsletter and never miss any update from us.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-lg-end text-center mt-md-0 mt-4">
+                    <form class="mt-2">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control form-input" placeholder="Email Address"
+                                aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <a href="#" class="input-group-text btn-sub" id="basic-addon2">SUBSCRIBE</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr>
+            <div class="row mt-0 mt-md-4">
+                <div class="col-lg-6 mt-2 text-lg-start text-center">
+                    <ul class="list-unstyled d-lg-flex list-items align-items-center mt-2">
+                        <li class="pt-lg-0 pt-4"> <a href="#" class="text-decoration-none"><img
+                                    src="images/footer-logo.svg" class="img-fluid"></a>
+                        </li>
+                        <li class="pt-lg-0 pt-4"> <a href="#" class="footer-text text-decoration-none">Home</a>
+                        </li>
+                        <li class="pt-lg-0 pt-4"> <a href="#" class="footer-text text-decoration-none">Features
+                            </a>
+                        </li>
+                        <li class="pt-lg-0 pt-4"> <a href="#" class="footer-text text-decoration-none">Blogs
+                            </a>
+                        </li>
+                        <li class="pt-lg-0 pt-4"> <a href="#" class="footer-text text-decoration-none">Support
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mt-lg-2 mt-4 d-lg-none d-block">
+                    <div class="text-center">
+                        <a href="#"><img src="images/Instagram.svg" class="img-fluid pe-2 ps-2"></a>
+                        <a href="#"><img src="images/Facebook_black.svg" class="img-fluid pe-2 ps-2"></a>
+                        <a href="#"><img src="images/LinkedIN_black.svg" class="img-fluid pe-2 ps-2"></a>
+                        <a href="#"><img src="images/Twitter_black.svg" class="img-fluid pe-2 ps-2"></a>
+                        <a href="#"><img src="images/Youtube_black.svg" class="img-fluid pe-2 ps-2"></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-lg-0 mt-5 mb-md-0 mb-4">
+                    <div class="text-lg-end text-center" id="image-size">
+                        <a href="#"><img src="images/App Store.svg"></a>
+                        <a href="#" class="ms-3"><img src="images/Google Play.svg"></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row mt-lg-0 mt-5">
+                <div class="col-lg-8 mt-md-2 mt-5 text-lg-start text-center">
+                    <div class="d-lg-none d-block">
+                        <a href="#" class="footer-text text-decoration-none ms-1"> Privacy Policy</a>
+
+                        <a href="#" class="footer-text text-decoration-none ms-1"> | Terms and Conditions
+                        </a>
+                    </div>
+                    <ul class="list-unstyled d-lg-flex copy-right align-items-center mt-2">
+                        <li class="footer-text"> Copyright 2022 YouRoutines. All Rights Reserved
+                        </li>
+                        <li class="d-lg-block d-none"> <a href="#" class="footer-text text-decoration-none ms-1">
+                                | Privacy Policy</a>
+                        </li>
+                        <li class="d-lg-block d-none"> <a href="#" class="footer-text text-decoration-none ms-1"> |
+                                Terms and Conditions
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-lg-4 mt-2 d-lg-block d-none">
+                    <div class="text-md-end text-center">
+                        <a href="#"><img src="images/Instagram.svg" class="img-fluid ms-4"></a>
+                        <a href="#"><img src="images/Facebook_black.svg" class="img-fluid ms-4"></a>
+                        <a href="#"><img src="images/LinkedIN_black.svg" class="img-fluid ms-4"></a>
+                        <a href="#"><img src="images/Twitter_black.svg" class="img-fluid ms-4"></a>
+                        <a href="#"><img src="images/Youtube_black.svg" class="img-fluid ms-4"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
